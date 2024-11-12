@@ -5,10 +5,10 @@ import {
 
 const routes = [
   {
-    path: "/",
+    path: "/scriptecho/HelloWorld",
     name: "HelloWorld",
     component: () =>
-        import ("/@/views/HelloWorld.vue"),
+        import ("/@/views/scriptecho/HelloWorld.vue"),
   },
 ];
 

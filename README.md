@@ -1,7 +1,39 @@
-# Vue 3 + Vite
+ScriptEcho AntDesignVue3的模板项目
+===============
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 安装与使用
 
-## Recommended IDE Setup
+- 获取项目代码
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+```bash
+git clone https://github.com/ScriptEcho-ai/ScriptEch-AntDesignVue3Template.git
+```
+
+- 安装依赖
+
+```bash
+yarn install
+
+```
+
+- 运行
+
+```bash
+yarn serve
+```
+
+
+- 构建
+
+```bash
+yarn build
+```
+
+
+## 添加页面
+
+1. 创建页面HelloWorld.vue到src/view/scriptecho下
+
+2. 修改router/index.js文件，添加路由
+
+3. 访问 http://localhost:5176/scriptecho/HelloWorld
