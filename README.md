@@ -36,4 +36,4 @@ yarn build
 
 2. 修改router/index.js文件，添加路由
 
-3. 访问 http://localhost:5176/scriptecho/HelloWorld
+3. 访问 http://localhost:5173/scriptecho/HelloWorld
