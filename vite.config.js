@@ -6,6 +6,7 @@ import { resolve } from "path";
 export default defineConfig({
   plugins: [vue()],
   resolve: {
+    extensions: ['.js', '.vue', '.ts'],
     alias: [
       {
         find: "/@",
@@ -13,6 +14,10 @@ export default defineConfig({
       },
       {
         find: "@",
+        replacement: resolve(__dirname, "src"),
+      },
+      {
+        find: "ScriptEcho/lib",
         replacement: resolve(__dirname, "src"),
       },
     ]
